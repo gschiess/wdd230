@@ -4,6 +4,11 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header,
 nav,
 main,
@@ -20,6 +25,11 @@ footer {
 }
 
 header {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
   color: rgb(255, 246, 163);
 }
