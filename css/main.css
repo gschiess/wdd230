@@ -1,27 +1,30 @@
 body {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header,
 nav,
 main,
 footer {
+  font-family: "Courier New";
   margin: 1.25rem auto;
   max-width: 760px;
 }
 
 header,
 footer {
-  background-color: rgb(126, 133, 139);
-  color: rgb(211, 197, 76);
+  background-color: rgb(94, 94, 95);
   text-align: center;
 }
 
 header {
   padding: 2rem;
+  color: rgb(255, 246, 163);
 }
 
 footer {
   padding: 0.1rem;
+  color: rgb(224, 255, 213);
 }

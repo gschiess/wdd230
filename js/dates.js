@@ -1,5 +1,5 @@
 const lastmod = document.querySelector('#lastmod')
-lastmod.textContent = `Last Updated: ${document.lastModified}`;
+lastmod.innerHTML = `<strong>Last Updated:</strong> ${document.lastModified}`;
 
 let d = new Date();
 let fullyear = d.getFullYear();
