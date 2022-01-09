@@ -18,6 +18,10 @@ footer {
   max-width: 760px;
 }
 
+main{
+    font-style: italic;
+}
+
 header,
 footer {
   background-color: rgb(94, 94, 95);
