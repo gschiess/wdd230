@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: "Syne Mono", monospace;
 }
@@ -7,6 +7,14 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+main {
+  font-size: 12px;
 }
 
 header,
@@ -40,4 +48,5 @@ header {
 footer {
   padding: 0.1rem;
   color: rgb(224, 255, 213);
+  font-size: 11px;
 }
