@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  body {
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    min-width: fit-content;
+  }
+
+  #home_link {
+    grid-column: 1/3;
+    text-align: center;
+    padding: 1rem;
+  }
+}

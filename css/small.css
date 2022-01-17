@@ -2,6 +2,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   font-family: "Syne Mono", monospace;
+  background-color: rgb(223, 223, 223);
 }
 
 img {
@@ -31,8 +32,9 @@ main {
 
 header,
 footer {
-  background-color: rgb(94, 94, 95);
+  background-color: rgb(100, 100, 100);
   text-align: center;
+  color: rgb(255, 243, 131);
 }
 
 header {
@@ -42,11 +44,9 @@ header {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  color: rgb(255, 246, 163);
 }
 
 footer {
   padding: 0.1rem;
-  color: rgb(224, 255, 213);
   font-size: 11px;
 }
