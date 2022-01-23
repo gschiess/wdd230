@@ -1,0 +1,10 @@
+@media only screen and (min-width: 43.5em) {
+    #lesson3-index header{
+        font-size: 30px;
+    }
+    #lesson3-index main {
+        margin: 1.25rem auto;
+        max-width: 80rem;
+        text-align: left;
+      }
+}

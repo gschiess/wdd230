@@ -1,0 +1,72 @@
+#lesson3-index body {
+  background-color: #201a10;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  padding: 7px 20px;
+}
+
+#lesson3-index header {
+  display: flex;
+  align-items: center;
+  background-color: #201a10;
+  padding: 2rem;
+  gap: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+#lesson3-index header img {
+  max-width: 40%;
+  height: auto;
+}
+
+#lesson3-index nav {
+  background: #502b14;
+  margin: 0;
+  padding: 0.3rem;
+}
+
+#lesson3-index nav ul {
+  display: flex;
+  align-items: center;
+  flex: auto;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#lesson3-index nav li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#lesson3-index nav li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0.5rem;
+}
+
+#lesson3-index nav li a:hover {
+  background: #932a0a;
+  color: #fff;
+}
+
+#lesson3-index main section img {
+  max-width: 40%;
+  height: auto;
+}
+
+#lesson3-index main {
+  margin: 1.25rem auto;
+  max-width: 32rem;
+  text-align: left;
+}
+
+footer {
+  margin: 1.25rem auto;
+  background-color: #201a10;
+  text-align: center;
+  color: #fff;
+  padding: 00.5rem;
+}
