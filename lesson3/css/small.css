@@ -23,13 +23,13 @@
   height: auto;
 }
 
-#lesson3-index nav {
+nav {
   background: #502b14;
   margin: 0;
   padding: 0.3rem;
 }
 
-#lesson3-index nav ul {
+nav ul {
   display: flex;
   align-items: center;
   flex: auto;
@@ -37,19 +37,19 @@
   list-style: none;
 }
 
-#lesson3-index nav li {
+nav li {
   flex-grow: 1;
   text-align: center;
 }
 
-#lesson3-index nav li a {
+nav li a {
   text-decoration: none;
   color: #fff;
   display: block;
   padding: 0.5rem;
 }
 
-#lesson3-index nav li a:hover {
+nav li a:hover {
   background: #932a0a;
   color: #fff;
 }
@@ -66,10 +66,19 @@
 }
 
 /* color-scheme css */
-#lesson3-colorscheme header img {
-  max-width: 1;
-  height: auto;
+#lesson3-colorscheme header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+}
+
+#lesson3-colorscheme header img {
+  max-width: 40%;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px 10px 10px 10px;
 }
 
 footer {
@@ -78,4 +87,74 @@ footer {
   text-align: center;
   color: #fff;
   padding: 00.5rem;
+}
+
+#input-color1,
+#input-color2 {
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: justify;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+#input-color3,
+#input-color4,
+#input-color5 {
+  color: #fff;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: justify;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+#input-color1 {
+  background-color: #d3bb7f;
+}
+
+#input-color2 {
+  background-color: #c59d61;
+}
+
+#input-color3 {
+  background-color: #932a0a;
+}
+
+#input-color4 {
+  background-color: #502b14;
+}
+
+#input-color5 {
+  background-color: #201a10;
+}
+
+#lesson3-colorscheme h1 {
+  text-align: center;
+}
+
+#lesson3-colorscheme main {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#lesson3-colorscheme main div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#lesson3-typography #text1 , #text2, #text3, #text4{
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
