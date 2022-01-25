@@ -158,3 +158,27 @@ footer {
     width: 90%;
     padding: 10px;
 }
+
+#lesson3-typography #text1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#lesson3-typography #text2 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+#lesson3-typography #text3 {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+#lesson3-typography #text4 {
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 2em;
+}
