@@ -1,17 +1,62 @@
 @media only screen and (min-width: 35rem) {
-    
-nav button {display: none;}
+  nav button {
+    display: none;
+  }
 
-nav ul#primaryNav {
+  nav ul#primaryNav {
     display: flex;
     justify-content: flex-end;
     margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3);
-}
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
-nav ul li a {
+  nav ul li a {
     border: none;
-    border-right: 1px solid rgba(0,0,0,0.3);
-}
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
+  main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  main div.hero {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  main div.weather {
+    grid-column: 4/6;
+    grid-row: 1/2;
+  }
+
+  main div.release {
+    grid-column: 6/9;
+    grid-row: 1/2;
+  }
+
+  main div.event {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+
+  main div.join {
+    grid-column: 5/9;
+    grid-row: 2/3;
+  }
+
+  main div.one {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+
+  main div.two {
+    grid-column: 4/6;
+    grid-row: 3/4;
+  }
+
+  main div.three {
+    grid-column: 6/9;
+    grid-row: 3/4;
+  }
 }
