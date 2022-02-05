@@ -4,7 +4,7 @@ const button = document.querySelector("button");
 button.onclick = function () {
   let scripture = input.value;
   input.value = "";
-  if (input.value != "") {
+  if (!!scripture) {
     const scriptureList = document.createElement("li");
     const scriptureText = document.createElement("span");
     const addBtn = document.createElement("button");
