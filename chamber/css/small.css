@@ -1,5 +1,4 @@
-body {
-}
+
 
 header {
   background-color: #201a10;
@@ -83,11 +82,17 @@ header div#title h3 {
 header div#logo {
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  align-items: center;
+}
+
+header div#logo img {
+  max-width: 100%;
 }
 
 header span#currentTime {
+  display: block;
   text-align: center;
+  padding: 10px;
 }
 
 header div#social-media {
@@ -95,7 +100,6 @@ header div#social-media {
   flex-direction: row;
   justify-content: flex-end;
   padding: 10px;
-  
 }
 
 header div#social-media img {
