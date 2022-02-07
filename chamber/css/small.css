@@ -46,6 +46,14 @@ nav ul.open {
   display: block;
 }
 
+section div{
+  display: none;
+}
+
+section div.open{
+  display: block;
+}
+
 #hamburgerBtn span:nth-child(1) {
   display: block;
 }
@@ -124,6 +132,14 @@ main div.spotlight {
   background-color: #c59d61;
 }
 
+main div.hero p{
+  font-size: 1rem;
+}
+
+main div.release h4{
+  display: block;
+}
+
 footer {
   margin: 1.25rem auto;
   background-color: #201a10;
@@ -135,3 +151,4 @@ footer {
 footer img {
   max-width: 200px;
 }
+

@@ -23,3 +23,10 @@ function toggleMenu() {
 }
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
+
+function showBanner() {
+    document.getElementById("banner").classList.toggle("open");
+}
+if (dayName == ('Mon' || 'Tue')) {
+    showBanner;
+}
