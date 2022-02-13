@@ -20,32 +20,44 @@
     <link rel="stylesheet" href="./css/medium.css" />
     <link rel="stylesheet" href="./css/large.css" />
     <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/windchil.js"></script>
   </head>
   <body>
+
+    <!-- Header Here -->
     <header>
-      <div id="logo">
-        <img
-          src="./images/point-of-commerce-hd-hor.png"
-          alt="logo for the point of commerce chamber of commerce"
-        />
-      </div>
+      <figure class="logo">
+        <img src="./images/poc-logo.webp" alt="logo">
+      </figure>
+
+      <!-- Title Here -->
       <div id="title">
         <h1>Land of Point</h1>
         <h3>Chamber of Commerce</h3>
       </div>
+
+      <!-- Social Media Icons here -->
       <div id="social-media">
-        <a href="#">
-          <img src="./images/instagram-icon.png" alt="instagram icon" />
-        </a>
-        <a href="#">
-          <img src="./images/gmail-icon.png" alt="gmail icon" />
-        </a>
+        <figure class="social">
+          <a href="#">
+            <img src="./images/instagram-icon.png" alt="instagram icon">
+          </a>
+        </figure>
+        <figure class="social">
+          <a href="#">
+            <img src="./images/gmail-icon.png" alt="gmail icon">
+          </a>
+        </figure>
       </div>
+
+      <!-- Banner Here -->
       <section>
         <div id="banner">
           <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
       </section>
+
+      <!-- Navigation Here -->
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
@@ -57,17 +69,31 @@
       </nav>
       <span id="currentTime">Current Time: </span>
     </header>
+
+    <!-- Main Here -->
     <main>
-      <div class="section hero">Hero</div>
+      <!-- Hero Section -->
+      <div class="section hero">
+        <picture class="heroimage">
+          <source media="(min-width: 300px)" srcset="./images/hero-small.jpg">
+          <source media="(min-width: 600px)" srcset="./images/hero-medium.jpg">
+          <img src="./images/hero-large.jpg" alt="hero image">
+          <div>Hero</div>
+        </picture>
+      </div>
+
+      <!-- Weather Section -->
       <div class="section weather">
-        Weather
+        The Weather today in the Land of Point is...
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A ad totam
-          assumenda fuga illum quibusdam, facere aliquam eum delectus, eveniet
-          sequi sint vel hic temporibus consectetur excepturi perferendis vitae
-          ex!
+          Temp: <span id="temp"></span> &#8457
+        </p>
+        <p>
+          Wind Chill: <span id="windchill"></span> &#8457
         </p>
       </div>
+
+      <!-- News Release Section -->
       <div class="section release">
         <h4>Big News</h4>
         <p>
@@ -76,15 +102,22 @@
           facilis incidunt nisi eius officiis aspernatur? Voluptas, rem est?
         </p>
       </div>
+
+      <!-- Event Section -->
       <div class="section event">
         Upcoming Events
         <p>Feb. 11th - Food Drive</p>
         <p>Feb. 24th - Marketing Campaign</p>
       </div>
+
+      <!-- Join/Invite Section -->
       <div class="section join">
         Join us
         <p>Click <a href="#">here</a> for our application papers</p>
       </div>
+
+      <!-- Spotlight Sections -->
+      <!-- Spotlight One -->
       <div class="spotlight one">
         Spotlight 1
         <p>
@@ -93,6 +126,8 @@
           Toss.
         </p>
       </div>
+
+      <!-- Spotlight Two -->
       <div class="spotlight two">
         Spotlight 2
         <p>
@@ -102,6 +137,8 @@
           distinctio iure minus voluptas.
         </p>
       </div>
+
+      <!-- Spotlight Three -->
       <div class="spotlight three">
         Spotlight 3
         <p>
@@ -112,13 +149,12 @@
         </p>
       </div>
     </main>
+
+    <!-- Footer Here -->
     <footer>
-      <div id="logo">
-        <img
-          src="./images/point-of-commerce-hd-hor.png"
-          alt="logo for the point of commerce chamber of commerce"
-        />
-      </div>
+      <figure class="logo">
+        <img src="./images/poc-logo.webp" alt="logo">
+      </figure>
       &copy;
       <span id="thisyear"></span>
       .:|:. Gabriel R. Schiess .:|:. Idaho <br />
