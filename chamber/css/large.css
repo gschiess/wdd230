@@ -1,14 +1,19 @@
 @media only screen and (min-width: 64rem) {
   nav ul li a {
-    padding: .75rem 5rem;
+    padding: 0.75rem 5rem;
   }
 
   header div#logo img {
     max-width: 30%;
   }
 
-  main {
+  main.container {
     display: grid;
+    width: 1000px;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
   }
 
   main div.hero {
@@ -50,5 +55,4 @@
     grid-column: 6/9;
     grid-row: 3/4;
   }
-
 }
