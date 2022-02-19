@@ -119,10 +119,6 @@ div.weather p span{
   max-width: 5ch;
 }
 
-#social-media img {
-  max-width: 60px;
-}
-
 header figure.social {
   margin-top: 0px;
   margin-right: 1em;
@@ -168,4 +164,8 @@ footer {
 footer figure.logo img {
   width: 300px;
   align-content: center;
+}
+
+main{
+  display: block;
 }

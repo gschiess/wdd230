@@ -6,52 +6,52 @@
   header div#logo img {
     max-width: 30%;
   }
-
-  main.container {
-    display: grid;
-    width: 1000px;
-    align-self: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
+  
+  main{
+    display: inline-block;
   }
 
-  main div.hero {
+  div.container {
+    display: grid;
+    width: 1000px;
+  }
+
+  div.hero {
     grid-column: 1/4;
     grid-row: 1/2;
   }
 
-  main div.weather {
+  div.weather {
     grid-column: 4/6;
     grid-row: 1/2;
   }
 
-  main div.release {
+  div.release {
     grid-column: 6/9;
     grid-row: 1/2;
   }
 
-  main div.event {
+  div.event {
     grid-column: 1/5;
     grid-row: 2/3;
   }
 
-  main div.join {
+  div.join {
     grid-column: 5/9;
     grid-row: 2/3;
   }
 
-  main div.one {
+  div.one {
     grid-column: 1/4;
     grid-row: 3/4;
   }
 
-  main div.two {
+  div.two {
     grid-column: 4/6;
     grid-row: 3/4;
   }
 
-  main div.three {
+  div.three {
     grid-column: 6/9;
     grid-row: 3/4;
   }

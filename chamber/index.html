@@ -15,19 +15,19 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/small.css" />
-    <link rel="stylesheet" href="./css/medium.css" />
-    <link rel="stylesheet" href="./css/large.css" />
-    <script defer src="./js/scripts.js"></script>
-    <script defer src="./js/windchil.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/windchil.js"></script>
   </head>
   <body>
 
     <!-- Header Here -->
     <header>
       <figure class="logo">
-        <img src="./images/poc-logo.webp" alt="logo">
+        <img src="images/poc-logo.webp" alt="logo">
       </figure>
 
       <!-- Title Here -->
@@ -40,12 +40,12 @@
       <div id="social-media">
         <figure class="social">
           <a href="#">
-            <img src="./images/instagram-icon.png" alt="instagram icon">
+            <img src="images/instagram-icon.png" alt="instagram icon">
           </a>
         </figure>
         <figure class="social">
           <a href="#">
-            <img src="./images/gmail-icon.png" alt="gmail icon">
+            <img src="images/gmail-icon.png" alt="gmail icon">
           </a>
         </figure>
       </div>
@@ -61,7 +61,7 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-          <li class="active"><a href="./index.html">Discover</a></li>
+          <li class="active"><a href="index.html">Discover</a></li>
           <li><a href="#">Directory</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Contact</a></li>
@@ -71,13 +71,14 @@
     </header>
 
     <!-- Main Here -->
-    <main class="container">
-      <!-- Hero Section -->
+    <main >
+      <div class="container">
+        <!-- Hero Section -->
       <div class="section hero">
         <picture class="heroimage">
-          <source media="(min-width: 300px)" srcset="./images/hero-small.jpg">
-          <source media="(min-width: 600px)" srcset="./images/hero-medium.jpg">
-          <img src="./images/hero-large.jpg" alt="hero image">
+          <source media="(min-width: 1200px)" srcset="images/hero-large.jpg">
+          <source media="(min-width: 600px)" srcset="images/hero-medium.jpg">
+          <img src="images/hero-small.jpg" alt="hero image">
           <div>Hero</div>
         </picture>
       </div>
@@ -151,12 +152,13 @@
           ad minima! Deserunt!
         </p>
       </div>
+      </div>
     </main>
 
     <!-- Footer Here -->
     <footer>
       <figure class="logo">
-        <img src="./images/poc-logo.webp" alt="logo">
+        <img src="images/poc-logo.webp" alt="logo">
       </figure>
       &copy;
       <span id="thisyear"></span>
