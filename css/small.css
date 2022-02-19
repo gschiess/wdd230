@@ -50,3 +50,24 @@ footer {
   padding: 0.1rem;
   font-size: 11px;
 }
+
+.pictures{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.pictures picture{
+  margin:auto;
+  margin-bottom: 500px;
+  margin-top: 250px;
+}
+
+.pictures picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.pictures picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
