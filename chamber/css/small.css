@@ -193,5 +193,9 @@ body{
 .pictures picture{
   margin:auto;
   margin-bottom: 100px;
-  margin-top: 100px;
+  color: #fff;
+}
+
+.pic img {
+  max-width: 80vw
 }

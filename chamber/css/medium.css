@@ -69,4 +69,24 @@
   header div#logo img {
     max-width: 50%;
   }
+
+  /* For making text appear on hover also the images pop a little */
+
+  .pic img:hover {box-shadow: 0 0 50px #333;}
+
+  .pic .imgDescription {
+    position:sticky;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.5rem;
+  }
+
+  .pic:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+
 }
