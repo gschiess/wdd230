@@ -96,10 +96,19 @@ header figure.logo img {
   max-width: 100%;
 }
 
-header span#currentTime {
-  display: block;
-  text-align: center;
+header span#metrics {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
   padding: 10px;
+}
+
+header span p#currentTime {
+  margin-left: 30px;
+}
+
+header span p.numVisits {
+  margin-right: 30px;
 }
 
 header div#social-media {
@@ -173,4 +182,16 @@ main div.container{
 
 body{
   background-color:#201a10;
+}
+
+.pictures{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.pictures picture{
+  margin:auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
