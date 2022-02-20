@@ -135,6 +135,7 @@ main div.spotlight {
   min-height: 10rem;
   text-align: center;
   background-color: #c59d61;
+  align-self: center;
 }
 
 main div.hero p {
@@ -155,7 +156,7 @@ main div.release h4 {
 
 footer {
   margin: 1.25rem auto;
-  background-color: #201a10;
+  background-color:#502b14;
   text-align: center;
   color: #fff;
   padding: 00.5rem;
@@ -166,6 +167,10 @@ footer figure.logo img {
   align-content: center;
 }
 
-main{
-  display: block;
+main div.container{
+  margin: auto;
+}
+
+body{
+  background-color:#201a10;
 }

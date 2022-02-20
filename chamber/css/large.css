@@ -6,10 +6,6 @@
   header div#logo img {
     max-width: 30%;
   }
-  
-  main{
-    display: inline-block;
-  }
 
   div.container {
     display: grid;
@@ -17,42 +13,42 @@
   }
 
   div.hero {
-    grid-column: 1/4;
+    grid-column: 1/9;
     grid-row: 1/2;
   }
 
   div.weather {
-    grid-column: 4/6;
-    grid-row: 1/2;
-  }
-
-  div.release {
-    grid-column: 6/9;
-    grid-row: 1/2;
-  }
-
-  div.event {
     grid-column: 1/5;
     grid-row: 2/3;
   }
 
-  div.join {
+  div.release {
     grid-column: 5/9;
     grid-row: 2/3;
   }
 
+  div.event {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+
+  div.join {
+    grid-column: 5/9;
+    grid-row: 3/4;
+  }
+
   div.one {
     grid-column: 1/4;
-    grid-row: 3/4;
+    grid-row: 4/5;
   }
 
   div.two {
     grid-column: 4/6;
-    grid-row: 3/4;
+    grid-row: 4/5;
   }
 
   div.three {
     grid-column: 6/9;
-    grid-row: 3/4;
+    grid-row: 4/5;
   }
 }

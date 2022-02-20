@@ -1,5 +1,5 @@
-let temp = 29;
-let wind = 4.0;
+let temp = 36;
+let wind = 11.0;
 
 if (temp <= 50 && wind > 3.0) {
   const windchill =
