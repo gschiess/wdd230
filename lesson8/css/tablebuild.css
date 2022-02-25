@@ -8,6 +8,7 @@
   --shadow: rgb(128, 128, 128);
   --zebra: rgba(203, 255, 207, 0.863);
   --stripe: rgb(236, 236, 236);
+  font-family: 'Montserrat', sans-serif;
 }
 
 table {
@@ -25,6 +26,8 @@ caption {
 }
 
 tr:first-child th {
+  font-size: larger;
+  font-weight: 900;
   background-color: var(--back);
   color: var(--foredark);
 }
