@@ -199,3 +199,69 @@ body{
 .pic img {
   max-width: 80vw
 }
+
+main.join, main.thanks{
+  padding: 0 2%;
+  min-height: 20rem;
+}
+
+main.join h1, main.thanks{
+  color: #fff;
+  text-align: center;
+}
+
+form fieldset{
+  margin: 2rem 0;
+  border: 1px solid #d3bb7f;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend{
+  color: #d3bb7f;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top{
+  display: block;
+  padding-top: 1rem;
+  color: #d3bb7f;
+  font-size: .8rem;
+}
+
+form label.top input{
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem;
+  color:#d3bb7f
+}
+
+form input.submitBtn{
+  border: none;
+  background-color: #d3bb7f;
+  color:#201a10;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  max-width: 20rem;
+}
+
+form label.top input:required{
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}

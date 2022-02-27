@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamber of Commerce - Herisau - Join Page</title>
+    <meta
+      name="description"
+      content="Join Page for Chamber of Commerce Website"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/scripts.js"></script>
+    <script src="../js/lazy-load.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Here -->
+    <header>
+      <figure class="logo">
+        <img src="#" data-src="images\herisauUndHandel.webp" alt="logo" />
+      </figure>
+
+      <!-- Title Here -->
+      <div id="title">
+        <h1>Herisau, Switzerland</h1>
+        <h3>Chamber of Commerce</h3>
+      </div>
+
+      <!-- Navigation Here -->
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li class="active"><a href="join.html">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <span id="metrics">
+        <p id="currentTime"></p>
+        <p><span>Number of Visits: </span><span class="numVisits"></span></p>
+        <!-- <p><span>Date of last visit:</span><span class="lastVisit"></span></p> -->
+      </span>
+    </header>
+    
+    <!-- Content Here -->
+    <main class="join">
+
+      <h1>Chamber Application</h1>
+
+      <form method="get" action="thankyou.html">
+
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" required/></label>
+          <label class="top">Last Name* <input type="text" name="lname" required/></label>
+          <label class="top">Business Position Title 
+            <input 
+            type="text" 
+            name="btitle" 
+            pattern="[A-Za-z\d\- ]{7,}" 
+            title="Title must be atleast 7 charaters long and can include hypens and numbers"/>
+          </label>
+          <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required/></label>
+          <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"/></label>
+          <label class="top">Business Name* <input type="text" name="bname" required/></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Membership Level</legend>
+          <label class="sbs"><input type="radio" name="memlevel" value="nonprofit" required/> NP Membership - Free</label>
+          <label class="sbs"><input type="radio" name="memlevel" value="bronze" required/> Bronze Membership - $5/Month</label>
+          <label class="sbs"><input type="radio" name="memlevel" value="silver" required/> Silver Membership - $15/Month</label>
+          <label class="sbs"><input type="radio" name="memlevel" value="gold" required/> Gold Membership - $30/Month</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Business Description</legend>
+          <textarea id="bdescription" name="bdescription" rows="6" cols="41"></textarea>
+          <input type="hidden" name="submitdate" />
+        </fieldset>
+        <input type="submit" value="Submit Application" class="submitBtn"/>
+      </form>
+    </main>
+
+    <!-- Footer Here -->
+    <footer>
+        <figure class="logo">
+          <img src="#" data-src="images\herisauUndHandel.webp" alt="logo">
+        </figure>
+        &copy;
+        <span id="thisyear"></span>
+        .:|:. Gabriel R. Schiess .:|:. Idaho <br />
+        <span id="lastmod"></span>
+      </footer>
+  </body>
+</html>
