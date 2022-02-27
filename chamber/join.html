@@ -62,8 +62,8 @@
 
         <fieldset>
           <legend>Applicant Information</legend>
-          <label class="top">First Name* <input type="text" name="fname" id="required" required/></label>
-          <label class="top">Last Name* <input type="text" name="lname" id="required" required/></label>
+          <label class="top">First Name * <input type="text" name="fname" id="required" required/></label>
+          <label class="top">Last Name * <input type="text" name="lname" id="required" required/></label>
           <label class="top">Business Position Title 
             <input 
             type="text" 
@@ -71,9 +71,9 @@
             pattern="[A-Za-z\d\- ]{7,}" 
             title="Title must be atleast 7 charaters long and can include hypens and numbers"/>
           </label>
-          <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" id="required" required/></label>
+          <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" id="required" required/></label>
           <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"/></label>
-          <label class="top">Business Name* <input type="text" name="bname" id="required" required/></label>
+          <label class="top">Business Name * <input type="text" name="bname" id="required" required/></label>
           <label class="top">Business Description
             <textarea 
               id="bdescription" 
@@ -86,7 +86,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Membership Level*</legend>
+          <legend>Membership Level *</legend>
           <label class="sbs">
             <input type="radio" 
             name="memlevel" 
@@ -121,6 +121,7 @@
           </label>
           <input type="hidden" name="submitdate" />
         </fieldset>
+        <h4> * = required field</h4>
         <label><input id="submit" type="submit" value="Submit Application" class="submitBtn"/></label>
       </form>
     </main>

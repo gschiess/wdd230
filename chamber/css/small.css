@@ -266,3 +266,8 @@ form input.submitBtn:hover{
   background-color: #c59d61;
   cursor: pointer;
 }
+
+main.join h4{
+  padding: .75rem;
+  color:#fff
+}
