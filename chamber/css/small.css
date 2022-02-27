@@ -230,7 +230,7 @@ form label.top{
   font-size: .8rem;
 }
 
-form label.top input{
+form label.top input, form label.top textarea{
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -248,6 +248,10 @@ form label.sbs {
   color:#d3bb7f
 }
 
+form label.sbs:hover{
+  cursor: pointer;
+}
+
 form input.submitBtn{
   border: none;
   background-color: #d3bb7f;
@@ -258,10 +262,7 @@ form input.submitBtn{
   max-width: 20rem;
 }
 
-form label.top input:required{
-  border-left: red solid 6px;
-}
-
-form label.top input:required:valid{
-  border-left: green solid 6px;
+form input.submitBtn:hover{
+  background-color: #c59d61;
+  cursor: pointer;
 }

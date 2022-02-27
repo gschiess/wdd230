@@ -62,8 +62,8 @@
 
         <fieldset>
           <legend>Applicant Information</legend>
-          <label class="top">First Name* <input type="text" name="fname" required/></label>
-          <label class="top">Last Name* <input type="text" name="lname" required/></label>
+          <label class="top">First Name* <input type="text" name="fname" id="required" required/></label>
+          <label class="top">Last Name* <input type="text" name="lname" id="required" required/></label>
           <label class="top">Business Position Title 
             <input 
             type="text" 
@@ -71,25 +71,57 @@
             pattern="[A-Za-z\d\- ]{7,}" 
             title="Title must be atleast 7 charaters long and can include hypens and numbers"/>
           </label>
-          <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required/></label>
+          <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" id="required" required/></label>
           <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"/></label>
-          <label class="top">Business Name* <input type="text" name="bname" required/></label>
+          <label class="top">Business Name* <input type="text" name="bname" id="required" required/></label>
+          <label class="top">Business Description
+            <textarea 
+              id="bdescription" 
+              name="bdescription" 
+              rows="6" 
+              cols="41" 
+              placeholder="enter a brief description of your business here">
+            </textarea>
+          </label>
         </fieldset>
 
         <fieldset>
-          <legend>Membership Level</legend>
-          <label class="sbs"><input type="radio" name="memlevel" value="nonprofit" required/> NP Membership - Free</label>
-          <label class="sbs"><input type="radio" name="memlevel" value="bronze" required/> Bronze Membership - $5/Month</label>
-          <label class="sbs"><input type="radio" name="memlevel" value="silver" required/> Silver Membership - $15/Month</label>
-          <label class="sbs"><input type="radio" name="memlevel" value="gold" required/> Gold Membership - $30/Month</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Business Description</legend>
-          <textarea id="bdescription" name="bdescription" rows="6" cols="41"></textarea>
+          <legend>Membership Level*</legend>
+          <label class="sbs">
+            <input type="radio" 
+            name="memlevel" 
+            value="nonprofit" 
+            id="required" 
+            required/> 
+            NP Membership - Free
+          </label>
+          <label class="sbs">
+            <input type="radio" 
+            name="memlevel" 
+            value="bronze" 
+            id="required" 
+            required/> 
+            Bronze Membership - $15/Month
+          </label>
+          <label class="sbs">
+            <input type="radio" 
+            name="memlevel" 
+            value="silver" 
+            id="required" 
+            required/> 
+            Silver Membership - $40/Month
+          </label>
+          <label class="sbs">
+            <input type="radio" 
+            name="memlevel" 
+            value="gold" 
+            id="required" 
+            required/> 
+            Gold Membership - $70/Month
+          </label>
           <input type="hidden" name="submitdate" />
         </fieldset>
-        <input type="submit" value="Submit Application" class="submitBtn"/>
+        <label><input id="submit" type="submit" value="Submit Application" class="submitBtn"/></label>
       </form>
     </main>
 
