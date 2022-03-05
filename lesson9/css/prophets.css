@@ -1,0 +1,38 @@
+body {
+  font-family: "Syne Mono", monospace;
+}
+
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+}
+
+body header h1 {
+  text-align: center;
+}
+
+body main div.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+}
+
+body footer {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(180, 180, 180);
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px 10px 10px 10px;
+  margin: 0.5rem;
+  justify-self: center;
+}
+
+section h2{
+    color: rgb(160, 68, 235)
+}
