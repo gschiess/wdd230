@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name": "Hotel Herisau",
+            "address": "Bahnhofstrasse 14, 9100 Herisau, Switzerland",
+            "phone": "+41713548383",
+            "website": "http://www.hotelherisau.ch/",
+            "imgurl": "https://www.hotelherisau.ch/wp-content/uploads/2017/12/logo-1.png"
+        },
+        {
+            "name": "Museum Herisau",
+            "address": "Platz 1221, 9102 Herisau, Switzerland",
+            "phone": "+41713524010",
+            "website": "http://www.museumherisau.ch/",
+            "imgurl": "https://museumherisau.ch/images/logos/logo-museenappenzellerland.gif"
+        },
+        {
+            "name": "HUBER+SUHNER AG",
+            "address": "Degersheimerstrasse 14, 9100 Herisau, Switzerland",
+            "phone": "+41713534111",
+            "website": "http://www.hubersuhner.com/",
+            "imgurl": "https://www.hubersuhner.com/sprinx/images/huber-suhner-logo-2019.svg"
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "imgurl": ""
+        }
+    ]
+}
