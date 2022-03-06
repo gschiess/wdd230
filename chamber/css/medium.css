@@ -96,4 +96,36 @@
     visibility: visible;
     padding: 2%;
   }
+
+  footer figure.logo img {
+    width: 300px;
+    align-content: center;
+  }
+
+
+  main.directory div.cards{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+  }
+  
+  main.directory section{
+    text-align: center;
+    padding: 1rem;
+    background-color: #d3bb7f;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    margin: 0.5rem;
+  }
+  
+  main.directory section img{
+    max-width: 300px;
+    max-height: 200px;
+  }
+  
+  body.directory h3{
+    text-align: center;
+    color:#fff
+  }
+
 }

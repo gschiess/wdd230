@@ -190,7 +190,7 @@ footer {
 }
 
 footer figure.logo img {
-  width: 300px;
+  width: 40vw;
   align-content: center;
 }
 
@@ -293,7 +293,7 @@ main.join h4{
 
 main.directory div.cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
   justify-content: center;
 }
 
@@ -307,7 +307,7 @@ main.directory section{
 }
 
 main.directory section img{
-  max-width: 350px;
+  max-width: 80vw;
   max-height: 200px;
 }
 

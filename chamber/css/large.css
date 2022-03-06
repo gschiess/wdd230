@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 67rem) {
   nav ul li a {
     padding: 0.75rem 4rem;
   }
@@ -50,5 +50,31 @@
   div.three {
     grid-column: 6/9;
     grid-row: 4/5;
+  }
+
+
+  main.directory div.cards{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+  }
+  
+  main.directory section{
+    text-align: center;
+    padding: 1rem;
+    background-color: #d3bb7f;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    margin: 0.5rem;
+  }
+  
+  main.directory section img{
+    max-width: 300px;
+    max-height: 200px;
+  }
+  
+  body.directory h3{
+    text-align: center;
+    color:#fff
   }
 }
