@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/scripts.js"></script>
-    <script defer src="js/windchil.js"></script>
+    <script defer src="js/weather.js"></script>
     <script src="../js/lazy-load.js" defer></script>
   </head>
   <body>
@@ -90,15 +90,26 @@
 
       <!-- Weather Section -->
       <div class="section weather">
-        The Weather today in Herisau, Switzerland is...
         <p>
-          Temp: <span id="temp"></span> &#8457
+          The Weather today in Herisau, Switzerland is...
         </p>
-        <p>
-          Wind Speed: <span id="wind"></span> Mph
+        <figure>
+          <img src="" alt="" id="weathericon" />
+          <p>Weather:
+            <span id="weather-type"></span>
+          </p>
+        </figure>
+        <p>Current Temp: 
+          <span id="current-temp"></span> &deg;C
         </p>
-        <p>
-          Wind Chill: <span id="windchill"></span> &#8457
+        <p>Feels Like:
+          <span id="feels-like"></span> &deg;C
+        </p>
+        <p>Humidity: 
+          <span id="humidity"></span> %
+        </p>
+        <p> Wind Speed:
+          <span id="wind-speed"></span> km/h
         </p>
       </div>
 

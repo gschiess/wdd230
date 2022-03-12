@@ -3,84 +3,84 @@
         {
             "name": "Hotel Herisau",
             "address": "Bahnhofstrasse 14, 9100 Herisau, Switzerland",
-            "phone": "+41713548383",
+            "phone": "+4 171 354 8383",
             "website": "http://www.hotelherisau.ch/",
             "imgurl": "./images/HotelHerisau.png"
         },
         {
             "name": "Museum Herisau",
             "address": "Platz 1221, 9102 Herisau, Switzerland",
-            "phone": "+41713524010",
+            "phone": "+4 171 352 4010",
             "website": "http://www.museumherisau.ch/",
             "imgurl": "https://museumherisau.ch/images/logos/logo-museenappenzellerland.gif"
         },
         {
             "name": "HUBER+SUHNER AG",
             "address": "Degersheimerstrasse 14, 9100 Herisau, Switzerland",
-            "phone": "+41713534111",
+            "phone": "+4 171 353 4111",
             "website": "http://www.hubersuhner.com/",
             "imgurl": "https://www.hubersuhner.com/sprinx/images/huber-suhner-logo-2019.svg"
         },
         {
             "name": "Näf Service und Maschinen AG",
             "address": "Industriestrasse 29, 9100 Herisau, Switzerland",
-            "phone": "+41713530909",
+            "phone": "+4 171 353 0909",
             "website": "http://www.naef-ag.ch/",
             "imgurl": "https://image.jimcdn.com/app/cms/image/transf/dimension=501x10000:format=png/path/s2bb7d1395949d5f9/image/i1fcf9d9030037acb/version/1644496997/image.png"
         },
         {
             "name": "Metrohm AG",
             "address": "Ionenstrasse, 9100 Herisau, Switzerland",
-            "phone": "+41713538585",
+            "phone": "+4 171 353 8585",
             "website": "http://www.metrohm.com/en",
             "imgurl": "https://www.metrohm.com/~/media/images/metrohm/logo.png?h=44&la&w=230"
         },
         {
             "name": "Appenzeller Druckerei AG",
             "address": "Kasernenstrasse 64, 9100 Herisau, Switzerland",
-            "phone": "+41713546464",
+            "phone": "+4 171 354 6464",
             "website": "https://www.appenzellerdruckerei.ch/",
             "imgurl": ""
         },
         {
             "name": "Sonderegger AG",
             "address": "Mühlestrasse 10, 9100 Herisau, Switzerland",
-            "phone": "+41713535050",
+            "phone": "+4 171 353 5050",
             "website": "https://www.sondi.ch/",
             "imgurl": ""
         },
         {
             "name": "Dimetix AG",
             "address": "Degersheimerstrasse 14, 9100 Herisau, Switzerland",
-            "phone": "+41713530000",
+            "phone": "+4 171 353 0000",
             "website": "http://www.dimetix.com/",
             "imgurl": "https://dc1wrklikowzi.cloudfront.net/wp-content/themes/dimetix-theme/img/logo_s.png"
         },
         {
             "name": "WEStec Moulds & Parts GmbH",
             "address": "Huebstrasse 24, 9100 Herisau, Switzerland",
-            "phone": "+41713516964",
+            "phone": "+4 171 351 6964",
             "website": "http://www.westec.ch/",
             "imgurl": "https://d2f0ora2gkri0g.cloudfront.net/23/32/23321210-ccde-4357-b6bc-63d333ff820f.png"
         },
         {
             "name": "Bendi Akustikdecken",
             "address": "Degersheimerstrasse 29a, 9100 Herisau, Switzerland",
-            "phone": "+41791997959",
+            "phone": "+4 179 199 7959",
             "website": "http://www.bendi.ch/",
             "imgurl": "http://bendi.ch/wp-content/uploads/2020/02/logo-aktuell-png.png"
         },
         {
             "name": "Werner Bösch",
             "address": "Steinrieselnstrasse 32, 9100 Herisau, Switzerland",
-            "phone": "+41713524254",
+            "phone": "+4 171 352 4254",
             "website": "",
             "imgurl": ""
         },
         {
             "name": "Copy Herisau GmbH",
             "address": "Oberdorfstrasse 82, 9100 Herisau, Switzerland",
-            "phone": "+41713511165",
+            "phone": "+4 171 351 1165",
             "website": "https://copy-shop-herisau-gmbh.business.site/",
             "imgurl": ""
         }

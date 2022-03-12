@@ -165,6 +165,21 @@ main div.spotlight {
   align-self: center;
 }
 
+/* Weather Div Section */
+main div.weather{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, auto);
+  font-size: 1.5rem;
+  padding: 00.5rem;
+}
+
+main div.weather p:nth-child(1){
+  font-size: 1.8rem;
+}
+
+/***********************/
+
 main div.hero p {
   font-size: 1rem;
 }
