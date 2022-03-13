@@ -243,11 +243,12 @@ main.join h1, main.thanks{
   text-align: center;
 }
 
-form fieldset{
+main.join form fieldset{
   margin: 2rem 0;
   border: 1px solid #d3bb7f;
   border-radius: 10px;
   padding: .5rem 2%;
+  max-width: 22rem;
 }
 
 form legend{
