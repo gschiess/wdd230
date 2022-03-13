@@ -52,3 +52,9 @@ window.localStorage.setItem('lastvisit', new Date(Date.now()));
 
 const daysSinceVisit = Math.floor(numberOfDays);
 document.getElementById('lastvisit').textContent = daysSinceVisit;
+
+function GetCurrDate(){
+    const postDate = new Date(Date.now());
+    window.localStorage.setItem('postDate', new Date(Date.now()));
+    document.getElementById("postDate").value = postDate;
+}

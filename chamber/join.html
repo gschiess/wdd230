@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamber of Commerce - Herisau - Join Page</title>
+    <title>Chamber of Commerce - Herisau - Join the Chamber</title>
     <meta
       name="description"
-      content="Join Page for Chamber of Commerce Website"
+      content="Join the Chamber of Commerce in Herisau, Switzerland"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,14 +19,13 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <script defer src="js/scripts.js"></script>
-    <script src="../js/lazy-load.js" defer></script>
+    <script src="js/scripts.js" defer></script>
   </head>
   <body>
     <!-- Header Here -->
     <header>
       <figure class="logo">
-        <img src="#" data-src="images\herisauUndHandel.webp" alt="logo" />
+        <img src="images\herisauUndHandel.webp" alt="logo" />
       </figure>
 
       <!-- Title Here -->
@@ -48,7 +47,6 @@
       </nav>
       <span id="metrics">
         <p id="currentTime"></p>
-        <p><span>Last Visited: </span><span id="lastvisit"></span> days ago</p>
       </span>
     </header>
     
@@ -61,8 +59,8 @@
 
         <fieldset>
           <legend>Applicant Information</legend>
-          <label class="top">First Name * <input type="text" name="fname" id="required" required/></label>
-          <label class="top">Last Name * <input type="text" name="lname" id="required" required/></label>
+          <label class="top">First Name * <input type="text" name="fname" required/></label>
+          <label class="top">Last Name * <input type="text" name="lname" required/></label>
           <label class="top">Business Position Title 
             <input 
             type="text" 
@@ -70,9 +68,9 @@
             pattern="[A-Za-z\d\- ]{7,}" 
             title="Title must be atleast 7 charaters long and can include hypens and numbers"/>
           </label>
-          <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" id="required" required/></label>
+          <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" required/></label>
           <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"/></label>
-          <label class="top">Business Name * <input type="text" name="bname" id="required" required/></label>
+          <label class="top">Business Name * <input type="text" name="bname" required/></label>
           <label class="top">Business Description
             <textarea 
               id="bdescription" 
@@ -89,46 +87,43 @@
           <label class="sbs">
             <input type="radio" 
             name="memlevel" 
-            value="nonprofit" 
-            id="required" 
+            value="nonprofit"
             required/> 
             NP Membership - Free (For Non-Profit Organizations)
           </label>
           <label class="sbs">
             <input type="radio" 
             name="memlevel" 
-            value="bronze" 
-            id="required" 
+            value="bronze"
             required/> 
             Bronze Membership - $15/Month
           </label>
           <label class="sbs">
             <input type="radio" 
             name="memlevel" 
-            value="silver" 
-            id="required" 
+            value="silver"
             required/> 
             Silver Membership - $40/Month
           </label>
           <label class="sbs">
             <input type="radio" 
             name="memlevel" 
-            value="gold" 
-            id="required" 
+            value="gold"
             required/> 
             Gold Membership - $70/Month
           </label>
           <input type="hidden" name="submitdate" />
         </fieldset>
         <h4> * = required field</h4>
-        <label><input id="submit" type="submit" value="Submit Application" class="submitBtn"/></label>
+        <label><input id="submit" type="submit" value="Submit Application" class="submitBtn" onclick="GetCurrDate()"/></label>
+        <input type="hidden" id="postDate" name="postDate">
       </form>
     </main>
 
     <!-- Footer Here -->
     <footer>
         <figure class="logo">
-          <img src="#" data-src="images\herisauUndHandel.webp" alt="logo">
+          <img src="images\herisauUndHandel.webp" alt="logo">
         </figure>
         &copy;
         <span id="thisyear"></span>
