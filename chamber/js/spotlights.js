@@ -1,4 +1,4 @@
-const requestURL = "./data/data.json"
+const requestURL = "./data/data.json";
 const cards = document.querySelector(".cards");
 
 fetch(requestURL)
@@ -9,6 +9,9 @@ fetch(requestURL)
     console.table(jsonObject);
     const businesses = jsonObject["businesses"];
     let randBusiness1;
+    let randBusiness2;
+    randBusiness1 = businesses[Math.floor(Math.random() * businesses.length)];
+    randBusiness2 = businesses[Math.floor(Math.random() * businesses.length)];
     for (var i = 0; i < 3; i++) {
       do {
         randBusiness2 =
@@ -42,7 +45,7 @@ function displayBusinesses(business) {
   card.appendChild(p1);
   card.appendChild(p2);
   card.appendChild(p3);
-  
+
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);
 }

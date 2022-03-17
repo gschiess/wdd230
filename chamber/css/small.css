@@ -162,7 +162,7 @@ main div.spotlight {
   min-height: 10rem;
   text-align: center;
   background-color: #c59d61;
-  align-self: center;
+  align-items: center;
 }
 
 /* Hero Div Section */
@@ -340,4 +340,50 @@ main.directory section img{
 body.directory h3{
   text-align: center;
   color:#fff
+}
+
+main div.cards{
+  display: grid;
+}
+
+main div.cards section{
+  width: 80%;
+  margin: 10px auto;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  min-height: 10rem;
+  text-align: center;
+  align-self: center;
+  padding: 1rem;
+  background-color: #c59d61;  
+}
+
+main div .event{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main div .event p{
+  font-weight: normal;
+}
+
+main div .release{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main div .release p{
+  font-weight: normal;
+  margin-top: 0.3em;
+  margin-right: 0.3em;
+  margin-bottom: 0.3em;
+  margin-left: 0.3em;
+}
+
+main div .join{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main div .join p{
+  font-weight: normal;
 }
