@@ -78,23 +78,23 @@
     color:#fff
   }
 
-  main div.cards{
+  main.index div.cards{
     display: grid;
     grid-column: 1/9;
     grid-row: 4/5; 
   }
 
-  main div.cards section:nth-child(1){
+  main.index div.cards section:nth-child(1){
     grid-column: 1/4;
     grid-row: 4/5;
   }
 
-  main div.cards section:nth-child(2){
+  main.index div.cards section:nth-child(2){
     grid-column: 4/6;
     grid-row: 4/5;
   }
 
-  main div.cards section:nth-child(3){
+  main.index div.cards section:nth-child(3){
     grid-column: 6/9;
     grid-row: 4/5;
   }
