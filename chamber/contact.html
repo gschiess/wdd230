@@ -49,45 +49,64 @@
         <p id="currentTime"></p>
       </span>
     </header>
-    
+
     <!-- Content Here -->
     <main class="contact">
-
       <h1>Contact Us</h1>
 
       <form method="get" action="response.html">
-
         <fieldset>
           <legend>Chamber Contact Form</legend>
-          <label class="top">First Name * <input type="text" name="fname" required/></label>
-          <label class="top">Last Name * <input type="text" name="lname" required/></label>
-          <label class="top">Email * <input type="email" name="email" placeholder="someone@gmail.com" required/></label>
-          <label class="top">Business Name * <input type="text" name="bname" required/></label>
-          <label class="top">Message
-            <textarea 
-              id="message" 
-              name="message" 
-              rows="6" 
-              cols="41" 
-              placeholder="enter a brief message here...">
-            </textarea>
+          <label class="top"
+            >First Name * <input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name * <input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Email *
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+          <label class="top"
+            >Business Name * <input type="text" name="bname" required
+          /></label>
+          <label class="top"
+            >Message
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="41"
+              placeholder="enter a brief message here..."
+            ></textarea>
           </label>
         </fieldset>
-        <h4> * = required field</h4>
-        <label><input id="submit" type="submit" value="Submit Message" class="submitBtn" onclick="GetCurrDate()"/></label>
-        <input type="hidden" id="postDate" name="postDate">
+        <h4>* = required field</h4>
+        <label
+          ><input
+            id="submit"
+            type="submit"
+            value="Submit Message"
+            class="submitBtn"
+            onclick="GetCurrDate()"
+        /></label>
+        <input type="hidden" id="postDate" name="postDate" />
       </form>
     </main>
 
     <!-- Footer Here -->
     <footer>
-        <figure class="logo">
-          <img src="images\herisauUndHandel.webp" alt="logo">
-        </figure>
-        &copy;
-        <span id="thisyear"></span>
-        .:|:. Gabriel R. Schiess .:|:. Idaho <br />
-        <span id="lastmod"></span>
-      </footer>
+      <figure class="logo">
+        <img src="images\herisauUndHandel.webp" alt="logo" />
+      </figure>
+      &copy;
+      <span id="thisyear"></span>
+      .:|:. Gabriel R. Schiess .:|:. Idaho <br />
+      <span id="lastmod"></span>
+    </footer>
   </body>
 </html>
