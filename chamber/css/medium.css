@@ -128,7 +128,7 @@
     color:#fff
   }
 
-  main.join form{
+  main.join form, main.contact form{
     margin: auto;
     width: 386px;
   }

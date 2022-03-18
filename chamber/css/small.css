@@ -249,17 +249,17 @@ body{
   max-width: 80vw
 }
 
-main.join, main.thanks{
+main.join, main.thanks, main.contact, main.response{
   padding: 0 2%;
   min-height: 20rem;
 }
 
-main.join h1, main.thanks{
+main.join h1, main.thanks, main.contact h1, main.response{
   color: #fff;
   text-align: center;
 }
 
-main.join form fieldset{
+main.join form fieldset, main.contact form fieldset{
   margin: 2rem 0;
   border: 1px solid #d3bb7f;
   border-radius: 10px;
@@ -317,7 +317,7 @@ form input.submitBtn:hover{
   cursor: pointer;
 }
 
-main.join h4{
+main.join h4, main.contact h4{
   padding: .75rem;
   color:#fff
 }
