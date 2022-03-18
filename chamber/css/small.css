@@ -166,6 +166,11 @@ main div.spotlight {
 }
 
 /* Hero Div Section */
+main div.hero{
+  display: grid;
+  justify-content: center;
+  max-width: 535px;
+}
 
 main div.hero p {
   font-size: 1rem;
@@ -176,6 +181,7 @@ main div.hero picture img {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
+  max-width: 80vmin;
 }
 
 /***********************/
