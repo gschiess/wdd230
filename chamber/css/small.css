@@ -252,6 +252,10 @@ main.pictures .pic img {
   padding: 20px;
 }
 
+main.pictures .pic p.imgDescription{
+  max-width: 90vw;
+}
+
 main.join, main.thanks, main.contact, main.response{
   padding: 0 2%;
   min-height: 20rem;
