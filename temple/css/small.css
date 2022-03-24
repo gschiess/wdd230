@@ -1,3 +1,66 @@
-::before ::after{
-    font-family: 'Montserrat', sans-serif;
+::before ::after {
+  font-family: "Montserrat", sans-serif;
 }
+
+/* Header CSS Rules */
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+/****/
+
+/* Nav CSS Rules */
+#hamburgerBtn-1 span:nth-child(1),
+#hamburgerBtn-2 span:nth-child(1) {
+  display: block;
+  color: #ffffff;
+}
+
+#hamburgerBtn-1 span:nth-child(2),
+#hamburgerBtn-2 span:nth-child(2) {
+  display: none;
+  color: #ffffff;
+}
+
+#hamburgerBtn-1.open span:nth-child(1),
+#hamburgerBtn-2.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn-1.open span:nth-child(2),
+#hamburgerBtn-2.open span:nth-child(2) {
+  display: block;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  font: 16px;
+  background-color: #01b6d1;
+  color: #ffffff;
+}
+
+nav ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul.open {
+  display: block;
+  align-items: center;
+}
+
+nav button.hamburgerBtn-1, nav button.hamburgerBtn-2 {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+}
+/****/

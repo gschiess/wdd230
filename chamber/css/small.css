@@ -44,6 +44,7 @@ nav ul li a:hover {
 nav ul {
   display: none;
 }
+
 nav ul.open {
   display: block;
   align-items: center;
