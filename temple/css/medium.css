@@ -1,19 +1,4 @@
-@media only screen and (min-width: 740px) {
-  nav button.hamburgerBtn-1 {
-    display: none;
-  }
-
-  nav ul#primaryNav {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-  }
-
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 0.75rem 2rem;
-  }
+@media only screen and (min-width: 650px) {
+  
 
 }
