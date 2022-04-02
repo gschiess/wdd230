@@ -1,33 +1,13 @@
 function toggleMenu() {
-    document.getElementsByClassName("btn").classList.toggle("click");
-    document.getElementsByClassName("sidebar").classList.toggle("show");
+  document.getElementById("primaryNav").classList.toggle("open");
+  document.getElementById("hamburgerBtn").classList.toggle("open");
 }
-const x = document.getElementsByClassName("btn");
+const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
 function toggleMenuTwo() {
-    document.getElementsByClassName("nav ul .serv-show").classList.toggle("show");
-    document.getElementsByClassName("nav ul .second").classList.toggle("rotate");
+  document.getElementById("secondaryNav").classList.toggle("open");
+  document.getElementById("hamburgerBtnTwo").classList.toggle("open");
 }
-const y = document.getElementsByClassName("serv-btn");
+const y = document.getElementById('hamburgerBtnTwo');
 y.onclick = toggleMenuTwo;
-
-
-
-
-
-
-//transcribe from jquery to normal javascript
-$(".btn").click(function () {
-    $(this).toggleClass("click");
-    $(".sidebar").toggleClass("show");
-  });
-
-  $(".serv-btn").click(function () {
-    $("nav ul .serv-show").toggleClass("show1");
-    $("nav ul .second").toggleClass("rotate");
-  });
-
-  $("nav ul li").click(function () {
-    $(this).addClass("active").siblings().removeClass("active");
-  });
