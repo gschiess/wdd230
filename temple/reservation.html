@@ -11,27 +11,51 @@
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     </style>
 
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/small.css" rel="stylesheet" />
-    <link href="css/medium.css" rel="stylesheet" />
-    <link href="css/large.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
 
     <script defer src="js/scripts.js"></script>
   </head>
   <body>
     <!-- Header Here -->
     <header>
-      <a href=""></a>
+      <!-- Logo -->
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="./images/temple-header-logo.webp" alt="logo" />
+        </a>
+      </div>
+      <hr class="line-break" />
+      
+      <!-- Navigation -->
       <nav>
-        <button id="hamburgerBtn-1"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
+        <button id="hamburger-btn">
+          <span>&#9776;</span>
+          <span>&#8910;</span>
+        </button>
+        <span>
+          <a href="#"><i class="bx bx-user-circle"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="bx bx-calendar"></i></a>
+        </span>
+        <hr class="line-break" />
+        <ul id="primary-nav">
           <li><a href="index.html">Homepage</a></li>
+          <li class="active"><a href="reservation.html">Reservation</a></li>
           <li><a href="temples.html">Temples</a></li>
-          <li class="active"><a href="reservation.html">Reservations</a></li>
-          <button id="hamburgerBtn-2"><span>&#9776;</span><span>X</span></button>
-          <ul id="secondaryNav">Services
-            <li><a href="reception.html">Reception</a></li>
-            <li><a href="missionary.html">Full-Time Temple Missionaries</a></li>
+          <button id="hamburger-btn-two">
+            <span>&#9776;</span><span>&#8910;</span></button
+          >Services
+          <ul id="secondary-nav">
+            <li><a href="./services/reception.html">Reception</a></li>
+            <li><a href="./services/missionary.html">Missionary</a></li>
           </ul>
         </ul>
       </nav>
@@ -41,6 +65,24 @@
     <main></main>
 
     <!-- Footer Here -->
-    <footer></footer>
+    <hr class="line-break" />
+    <footer>
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="./images/temple-footer-logo.webp" alt="logo" />
+        </a>
+      </div>
+      <div id="footer-subsection">
+        <div>
+          &copy;
+          <span id="this-year"></span>
+          .:|:. Gabriel R. Schiess .:|:.
+        </div>
+        <div>
+          <span id="last-mod"></span>
+        </div>
+        <div>Weather data: https://openweathermap.org/</div>
+      </div>
+    </footer>
   </body>
 </html>

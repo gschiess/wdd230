@@ -11,25 +11,49 @@
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     </style>
 
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <link rel="stylesheet" href="css/normalize.css" />
 
-    <script defer src="js/scripts.js"></script>
+    <script src="js/scripts.js" async="false"></script>
   </head>
   <body>
     <!-- Header Here -->
     <header>
+      <!-- Logo -->
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="./images/temple-header-logo.webp" alt="logo" />
+        </a>
+      </div>
+      <hr class="line-break" />
+
+      <!-- Navigation -->
       <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
+        <button id="hamburger-btn">
+          <span>&#9776;</span>
+          <span>&#8910;</span>
+        </button>
+        <span>
+          <a href="#"><i class="bx bx-user-circle"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="bx bx-calendar"></i></a>
+        </span>
+        <hr class="line-break" />
+        <ul id="primary-nav">
           <li class="active"><a href="index.html">Homepage</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="temples.html">Temples</a></li>
-          <button id="hamburgerBtnTwo"><span>&#9776;</span><span>X</span>
-          </button>
-          <ul id="secondaryNav">
+          <button id="hamburger-btn-two">
+            <span>&#9776;</span><span>&#8910;</span></button
+          >Services
+          <ul id="secondary-nav">
             <li><a href="./services/reception.html">Reception</a></li>
             <li><a href="./services/missionary.html">Missionary</a></li>
           </ul>
@@ -38,9 +62,42 @@
     </header>
 
     <!-- Main Here -->
-    <main></main>
+    <main class="index">
+      <div class="main-temple">
+        <picture class="temple-picture">
+          <source media="(min-width: 1200px)" srcset="images/temple-large.jpg" 3x> 
+          <source media="(min-width: 800px)" srcset="images/temple-medium.jpg" 2x>
+          <img src="images/temple-small.jpg" alt="Temple on Hill">
+        </picture>
+      </div>
+      <div class="main-offers">
+        <picture></picture>
+        <picture></picture>
+        <picture></picture>
+      </div>
+    </main>
 
     <!-- Footer Here -->
-    <footer></footer>
+    <hr class="line-break" />
+    <footer>
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="./images/temple-footer-logo.webp" alt="logo" />
+        </a>
+      </div>
+      <div id="footer-subsection">
+        <div>
+          &copy;
+          <span id="this-year"></span>
+          .:|:. Gabriel R. Schiess .:|:.
+        </div>
+        <div>
+          <span id="last-mod"></span>
+        </div>
+        <div>
+          Weather data: <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

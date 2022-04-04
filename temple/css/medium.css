@@ -1,4 +1,10 @@
 @media only screen and (min-width: 650px) {
-  
+
+/* Nav CSS Rules */
+  ul#primary-nav.open {
+    max-width: 400px;
+    background-color: #abadb0;
+  }
+/********/
 
 }
