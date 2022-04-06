@@ -65,16 +65,80 @@
     <main class="index">
       <div class="main-temple">
         <picture class="temple-picture">
-          <source media="(min-width: 1200px)" srcset="images/temple-large.jpg" 3x> 
-          <source media="(min-width: 800px)" srcset="images/temple-medium.jpg" 2x>
-          <img src="images/temple-small.jpg" alt="Temple on Hill">
+          <source
+            media="(min-width: 1200px)"
+            srcset="images/temple-large.jpg"
+            3x
+          />
+          <source
+            media="(min-width: 800px)"
+            srcset="images/temple-medium.jpg"
+            2x
+          />
+          <img src="images/temple-small.jpg" alt="Temple on Hill" />
         </picture>
+        <p class="description">
+
+        </p>
       </div>
       <div class="main-offers">
-        <picture></picture>
-        <picture></picture>
-        <picture></picture>
+        <picture>
+          <img src="images/hotel-building.jpg" alt="hotel building" />
+        </picture>
+        <picture>
+          <img
+            src="images/hotel-bed.jpg"
+            alt="bed with pillows and side table in a hotel"
+          />
+        </picture>
+        <picture>
+          <img
+            src="images/hotel-pool.jpg"
+            alt="pool and fountain outside a hotel"
+          />
+        </picture>
       </div>
+      <div class="main-weather">
+        <p>The Weather in Bethesda, Maryland</p>
+        <figure>
+          <img src="" alt="" id="weather-icon" />
+          <p>
+            <span id="weather-type"></span>
+          </p>
+        </figure>
+        <p>Current Temp: <span id="current-temp"></span> &deg;F</p>
+        <p>Feels Like: <span id="feels-like"></span> &deg;F</p>
+        <p>Humidity: <span id="current-humidity"></span> %</p>
+        <p>Wind Speed: <span id="current-wind"></span> mph</p>
+
+        <div class="main-weather-3day">
+          <p>3 Day Forecast: <span id="day-two"></span></p>
+          <p>Max: <span id="day-two-max"></span> &deg;F</p>
+          <p>Min: <span id="day-two-min"></span> &deg;F</p>
+          <p>Max: <span id="day-three-max"></span> &deg;F</p>
+          <p>Min: <span id="day-three-min"></span> &deg;F</p>
+          <p>Max: <span id="day-four-max"></span> &deg;F</p>
+          <p>Min: <span id="day-four-min"></span> &deg;F</p>
+        </div>
+
+        <div class="weather-alert">
+          <p><span id="weather-alerts-event"></span></p>
+          <p><span id="weather-alerts-desc"></span></p>
+        </div>
+      </div>
+      <div class="social-media">
+        <figure class="social">
+          <a href="temples.html">
+            <img src="images/instagram-icon.png" alt="instagram icon">
+          </a>If you want to see where our new hotel locations are going click the icon.
+        </figure>
+        <figure class="social">
+          <a href="reservation.html">
+            <img src="images/gmail-icon.png" alt="gmail icon">
+          </a>If you need to contact us click the icon.
+        </figure>
+      </div>
+      
     </main>
 
     <!-- Footer Here -->
@@ -95,7 +159,8 @@
           <span id="last-mod"></span>
         </div>
         <div>
-          Weather data: <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+          Weather data:
+          <a href="https://openweathermap.org/">https://openweathermap.org/</a>
         </div>
       </div>
     </footer>

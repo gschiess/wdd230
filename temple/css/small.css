@@ -68,6 +68,8 @@ ul#primary-nav.open {
   position: absolute;
   width: 100vw;
   z-index: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 nav span a i {
   color: black;
@@ -107,6 +109,20 @@ main.index div.main-temple {
 }
 main.index div.main-temple picture.temple-picture img {
   max-width: 100vw;
+  background-color: #abadb0;
+  padding: 5px;
+  border-radius: 10px;
+}
+main.index div.main-offers {
+  text-align: center;
+  display: grid;
+  grid-auto-flow: column;
+}
+main.index div.main-offers picture img{
+  background-color: #abadb0;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 25vw;
 }
 /****/
 
