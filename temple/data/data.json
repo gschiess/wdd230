@@ -1,0 +1,133 @@
+{
+  "temples": [
+    {
+      "name": "Manti LDS Temple",
+      "telephone": 4358352291,
+      "website": "https://www.churchofjesuschrist.org/temples/details/manti-utah-temple?lang=eng",
+      "address": "200 E 510 N Manti UT 84642-1701 United States",
+      "milestones": [
+        {
+          "announced": "25 June 1875",
+          "groundbreaking": "25 April 1877",
+          "dedicated": "21 May 1888",
+          "rededicated": "14 June 1985"
+        }
+      ],
+      "services": "closed for renovation",
+      "ordinance schedule": "closed for renovation",
+      "session schedule": "closed for renovation",
+      "temple closure schedule": "closed for renovation",
+      "imgurl": "https://assets.ldscdn.org/f3/85/f38513cc90a30a2095d0891fb1b1a9419fcfeba5/manti_temple_lds.jpeg"
+    },
+    {
+      "name": "Logan LDS Temple",
+      "telephone": 4357523611,
+      "website": "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
+      "address": "175 N 300 E Logan UT 84321-4720 United States",
+      "milestones": [
+        {
+          "announced": "6 October 1876",
+          "groundbreaking": "18 May 1877",
+          "dedicated": "17 May 1884",
+          "rededicated": "13 March 1979"
+        }
+      ],
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"
+      ],
+      "ordinance schedule": "Ordinances by appointment only",
+      "session schedule": "Session by appointment only",
+      "temple closure schedule": [
+        "Saturday, 1 October 2022",
+        "Monday, 3 October 2022 - Monday, 17 October 2022",
+        "Wednesday, 23 November 2022 (Limited Operations)",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022 (Limited Operations)"
+      ],
+      "imgurl": "https://assets.ldscdn.org/07/66/0766f32cfa9c69e9c838361d874aeb819983139a/logan_temple_lds.jpeg"
+    },
+    {
+      "name": "Salt Lake LDS Temple",
+      "telephone": 8012402640,
+      "website": "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+      "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+      "milestones": [
+        {
+          "announced": "28 July 1847",
+          "groundbreaking": "14 February 1853",
+          "dedicated": "6 April 1893"
+        }
+      ],
+      "services": "closed for renovation",
+      "ordinance schedule": "closed for renovation",
+      "session schedule": "closed for renovation",
+      "temple closure schedule": "closed for renovation",
+      "imgurl": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg"
+    },
+    {
+      "name": "Rexburg LDS Temple",
+      "telephone": 2086560880,
+      "website": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+      "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+      "milestones": [
+        {
+          "announced": "12 December 2003",
+          "groundbreaking": "30 July 2005",
+          "dedicated": "10 February 2008"
+        }
+      ],
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "ordinance schedule": "Ordinances by appointment only",
+      "session schedule": "Session by appointment only",
+      "temple closure schedule": [
+        "Monday, 11 April 2022 - Monday, 4 July 2022",
+        "Saturday, 23 July 2022",
+        "Saturday, 1 October 2022",
+        "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ],
+      "imgurl": "https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
+    },
+    {
+      "name": "Idaho Falls LDS Temple",
+      "telephone": 2085227669,
+      "website": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng",
+      "address": "1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+      "milestones": [
+        {
+          "announced": "3 March 1937",
+          "groundbreaking": "19 December 1939",
+          "dedicated": "23 September 1945",
+          "rededicated": "4 June 2017"
+        }
+      ],
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "ordinance schedule": "",
+      "session schedule": "",
+      "temple closure schedule": [
+        "Tuesday, 28 June 2022 - Monday, 11 July 2022",
+        "Saturday, 1 October 2022",
+        "Wednesday, 23 November 2022 (Limited Operations)",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ],
+      "imgurl": "https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png"
+    }
+  ]
+}

@@ -48,7 +48,7 @@ fetch(apiURL)
     document.querySelector("#day-four-max").textContent = jsObject.daily[2].temp.max.toFixed(1);
     document.querySelector("#day-four-min").textContent = jsObject.daily[2].temp.min.toFixed(1);
     // Alerts 
-    if(jsObject.alerts.start){
+    if(jsObject.alerts){
       //essentially if (jsObject.alerts.start) has a value then do the following
       document.querySelector("#weather-alerts-event").textContent = jsObject.alerts.event;
       document.querySelector("#weather-alerts-desc").textContent = jsObject.alerts.description;

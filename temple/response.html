@@ -15,24 +15,24 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link href="../css/normalize.css" rel="stylesheet" />
-    <link href="../css/small.css" rel="stylesheet" />
-    <link href="../css/medium.css" rel="stylesheet" />
-    <link href="../css/large.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
 
-    <script defer src="../js/scripts.js"></script>
+    <script src="js/scripts.js" async="false"></script>
   </head>
   <body>
     <!-- Header Here -->
     <header>
       <!-- Logo -->
       <div class="header-logo">
-        <a href="../index.html">
-          <img src="../images/temple-header-logo.webp" alt="logo" />
+        <a href="index.html">
+          <img src="./images/temple-header-logo.webp" alt="logo" />
         </a>
       </div>
       <hr class="line-break" />
-      
+
       <!-- Navigation -->
       <nav>
         <button id="hamburger-btn">
@@ -47,29 +47,34 @@
         </span>
         <hr class="line-break" />
         <ul id="primary-nav">
-          <li><a href="../index.html">Homepage</a></li>
-          <li><a href="../reservation.html">Reservation</a></li>
-          <li><a href="../temples.html">Temples</a></li>
+          <li class="active"><a href="index.html">Homepage</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="temples.html">Temples</a></li>
           <button id="hamburger-btn-two">
             <span>&#9776;</span><span>&#8910;</span></button
           >Services
           <ul id="secondary-nav">
-            <li class="active"><a href="reception.html">Reception</a></li>
-            <li><a href="missionary.html">Missionary</a></li>
+            <li><a href="./services/reception.html">Reception</a></li>
+            <li><a href="./services/missionary.html">Missionary</a></li>
           </ul>
         </ul>
       </nav>
     </header>
-
-    <!-- Main Here -->
-    <main></main>
+    
+    <!-- Content Here -->
+    <main class="response">
+      <h1>Chamber Contact Form</h1>
+      <p>
+        Thank you so much for contacting us, we will do our best to get back to you right away.
+      </p>
+    </main>
 
     <!-- Footer Here -->
     <hr class="line-break" />
     <footer>
       <div class="footer-logo">
-        <a href="../index.html">
-          <img src="../images/temple-footer-logo.webp" alt="logo" />
+        <a href="index.html">
+          <img src="./images/temple-footer-logo.webp" alt="logo" />
         </a>
       </div>
       <div id="footer-subsection">
